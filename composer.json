@@ -1,0 +1,32 @@
+{
+    "name": "provokke/larder",
+    "description": "A small PSR-11 dependency container with reflection autowiring.",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.2",
+        "psr/container": "^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Larder\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Larder\\Tests\\": "tests/"
+        },
+        "files": [
+            "tests/Fixtures/classes.php"
+        ]
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
