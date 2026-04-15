@@ -44,3 +44,4 @@ final class ContextualBindingBuilder
         return $this->needs;
     }
 }
+
