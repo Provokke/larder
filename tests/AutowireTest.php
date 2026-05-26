@@ -192,3 +192,4 @@ final class AutowireTest extends TestCase
         $container->get(Logger::class);
     }
 }
+
