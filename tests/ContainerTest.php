@@ -289,3 +289,4 @@ final class ContainerTest extends TestCase
         }
     }
 }
+
