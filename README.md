@@ -93,4 +93,3 @@ $container->get(Greeter::class);
 - `ContainerTest` (25): PSR-11 conformance and exception types, closures, singletons, instances, rebinding, aliases and alias loops, `extend`, `make`, tags, `forget`, `has`, providers, and recovery after a failing factory.
 - `AutowireTest` (19): recursive resolution, defaults, nullable and union types, variadics, overrides by name and position, circular chains and cleanup after them, and abstract, private-constructor and enum targets.
 - `ContextualAndCallTest` (13): per-class contextual bindings with class names, closures and parameter names, precedence of explicit parameters, and `call` across closures, methods, static strings, invokables and named functions.
-
